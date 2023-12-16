@@ -82,12 +82,15 @@ footer {
     padding: 120px 0;
   }
   h1 {
-    font-size: 48px;
-  }
-  h2 {
     font-size: 28px;
   }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
   header a {
-    display: inline-block;
+    padding: 8px 10px;
   }
 }
