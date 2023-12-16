@@ -1,25 +1,28 @@
 body {
   font-family: "poppins", sans-serif;
-  background: #272044;
+  background: #715542;
   font-style: normal;
+  height: 100%;
 }
+
 .container {
-  max-width: 1400px;
   margin: 0 auto;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url("../images/masjid.jpg");
   background-position: center;
+  height: 100%;
+
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 300px;
+  padding: 380px 0;
 }
 h1 {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 96px;
+  font-size: 90px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.5;
@@ -40,7 +43,7 @@ h3 {
   color: #fff;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -63,6 +66,10 @@ header a {
   display: inline-block;
   text-decoration: none;
 }
+.learn-button {
+  display: flex;
+  justify-content: center;
+}
 
 footer {
   text-align: center;
@@ -72,7 +79,7 @@ footer {
 
 @media (max-width: 900px) {
   header {
-    padding: 60px 0;
+    padding: 120px 0;
   }
   h1 {
     font-size: 48px;
