@@ -4,11 +4,25 @@ body {
   font-style: normal;
   height: 100%;
 }
-section {
-  max-width: 1300px;
+.container {
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 70px 20px;
 }
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+section.cards-section {
+  background: #f8f8f8;
+}
+
+section.cards-section h2,
+h3 {
+  text-align: center;
+}
+
 main {
   background-color: white;
   margin: 0 auto;
@@ -43,14 +57,16 @@ main h3 {
   grid-gap: 64px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .grid-3-columns-firstcolumn-narrow {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 30px;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
 }
 
 header {
@@ -144,7 +160,7 @@ footer p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  opacity: 0, 6;
+  opacity: 0.8;
 }
 
 footer ul {
