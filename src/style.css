@@ -306,6 +306,9 @@ footer a:link {
     width: 40%;
     font-size: 10px;
   }
+  .gallery h3 {
+    margin: 0 auto;
+  }
 
   .grid {
     grid-template-columns: 1fr;
